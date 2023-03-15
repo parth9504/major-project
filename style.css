@@ -70,11 +70,21 @@ font-family: 'Libre Baskerville', serif;
     background-size: contain;
     background-size:cover;
    background-blend-mode: lighten;
+
+ background-blend-mode: overlay;
  background-color:rgba(0,0,0,0.3);}
    form div input {
     width: 50%;
   }
   .create{
     font-size:medium;
+    margin-bottom:30px;
+  }
+  form label{
+    color:blanchedalmond;
+    font: bolder;
+  }
+  form i{
+    color: black;
   }
 }
