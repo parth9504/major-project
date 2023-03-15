@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+  font-family: 'Libre Baskerville', serif;
+  background:linear-gradient(pink,yellow);
+}
+    .signin-form{
+    background-image:
+    url("https://hbr.org/resources/images/article_assets/2022/10/A_Oct22_06_mental-health_1058086058.jpg");
+    height:auto;
+    width:100%;
+    background-size: contain;
+    background-size:cover;
+   background-blend-mode: lighten;
+  /*background-color:rgba(0,0,0,0.1);*/
+  }
+.intro{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    max-width: 800px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+  }
+.btext{
+text-align: right;
+font-size:x-large;
+position: absolute;
+top:120px;
+right:40px;
+
+}
+.create{
+font-size:larger;
+text-align: left;
+font-family: 'Libre Baskerville', serif;
+
+}
+  form div input {
+    width: 30%;
+    height: 25px;
+    border-radius: 2px;
+    outline: none;
+    border: 2px solid palevioletred;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3);
+  }
+  .sub,
+  .res{
+    width:100px;
+    height:30px;
+ 
+  }
+ 
+@media(max-width:520px){  /*For smaller screen devices*/
+  .signin-form{
+    background-image:
+    url("https://www.news-medical.net/images/Article_Images/ImageForArticle_22028_16430272124432966.jpg");
+    height:auto;
+    width:100%;
+    background-size: contain;
+    background-size:cover;
+   background-blend-mode: lighten;
+ background-color:rgba(0,0,0,0.3);}
+   form div input {
+    width: 50%;
+  }
+  .create{
+    font-size:medium;
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/515cf1d69d.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="intro">
+<h1>Live Love Heal Foundation</h1>
+<h3>You aren't alone in this,we're here to help you.</h3>
+</div>
+<div class="create">
+    <p><b>Create an Account to  discover the plethora of services we have to offer</b></p>
+</div>
+    <form id="form" class="signin-form" onSubmit="return check()" method="post">
+    <div>
+        <label><b>Name </b><i class="fa-solid fa-user"></i>:</label><br>
+        <input type="text" id="name" onChange="return checkname()" method="post"  placeholder="Enter your name" required></div>
+    <div>
+        <label><b>Email Address</b> <i class="fa-solid fa-envelope"></i>:</label><br>
+        <input type="text" id="email" onChange="return checkemail()" method="post" placeholder="Enter email" required>
+    </div>
+    <div>
+        <label><b>Phone Number</b> <i class="fa-solid fa-phone"></i>:</label><br>
+        <input type="number" id="phn"onChange="return checkphn()" method="post"  placeholder="Enter Phone number" required>
+    </div>
+     <div>
+        <label><b>Password</b> <i class="fa-solid fa-lock"></i>:</label><br>
+        <input type="text"id="pass" onChange="return checkpass()" method="post" placeholder="Enter Password" required>
+     </div>
+     <div>
+        <label><b>Confirm Password</b> <i class="fa-solid fa-lock"></i>:</label><br>
+        <input type="text" id="cpass" onChange="return checkconpass()" method="post"  placeholder="Confirm Password" required>
+     </div>
+<input type="submit" id="submit" class="sub">
+<input type="reset" class="res">
+<br>
+</form>
+</body>
+</html>
