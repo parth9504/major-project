@@ -60,6 +60,9 @@ font-family: 'Libre Baskerville', serif;
     height:30px;
  
   }
+  .intro h3{
+    margin-top:5px;
+  }
  
 @media(max-width:520px){  /*For smaller screen devices*/
   .signin-form{
